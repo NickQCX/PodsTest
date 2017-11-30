@@ -16,6 +16,7 @@
 		0175412A1FCFE3E70023CAC2 /* PodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017541291FCFE3E70023CAC2 /* PodsTestTests.m */; };
 		017541351FCFE3E70023CAC2 /* PodsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017541341FCFE3E70023CAC2 /* PodsTestUITests.m */; };
 		017541441FCFE3EF0023CAC2 /* PodsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 017541431FCFE3EF0023CAC2 /* PodsTest.m */; };
+		017541481FCFEB090023CAC2 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 017541471FCFEB090023CAC2 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		017541361FCFE3E70023CAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		017541421FCFE3EF0023CAC2 /* PodsTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsTest.h; sourceTree = "<group>"; };
 		017541431FCFE3EF0023CAC2 /* PodsTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodsTest.m; sourceTree = "<group>"; };
+		017541461FCFEB090023CAC2 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		017541471FCFEB090023CAC2 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		0175410F1FCFE3E70023CAC2 /* PodsTest */ = {
 			isa = PBXGroup;
 			children = (
+				017541451FCFEAFE0023CAC2 /* TestClass */,
 				017541101FCFE3E70023CAC2 /* AppDelegate.h */,
 				017541111FCFE3E70023CAC2 /* AppDelegate.m */,
 				017541131FCFE3E70023CAC2 /* ViewController.h */,
@@ -135,6 +139,15 @@
 				017541361FCFE3E70023CAC2 /* Info.plist */,
 			);
 			path = PodsTestUITests;
+			sourceTree = "<group>";
+		};
+		017541451FCFEAFE0023CAC2 /* TestClass */ = {
+			isa = PBXGroup;
+			children = (
+				017541461FCFEB090023CAC2 /* TestClass.h */,
+				017541471FCFEB090023CAC2 /* TestClass.m */,
+			);
+			path = TestClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017541481FCFEB090023CAC2 /* TestClass.m in Sources */,
 				017541151FCFE3E70023CAC2 /* ViewController.m in Sources */,
 				017541201FCFE3E70023CAC2 /* main.m in Sources */,
 				017541121FCFE3E70023CAC2 /* AppDelegate.m in Sources */,
